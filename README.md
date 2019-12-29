@@ -3,9 +3,12 @@ Realtime video monitoring
 
 ## Overview
 Omniroom is divided into 2 parts:
-- a server that operates at the same time as a signaling server and a webserver.
+- a server that operates at the same time, as a signaling server and as a web server.
+
     Signaling part: It's rôle is to manage websockets communications
+
     Web server: To serve web pages to web browser clients
+
 - a camera service that capture or generates a video flux and send it through websockets and WebRTC.
 
 [Server repository](https://github.com/room-2135/omniroom-server)
