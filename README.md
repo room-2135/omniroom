@@ -23,6 +23,7 @@ A message has the form:
 
 When a message is sent, the identifier field refers to the target of the message. The signaling server replaces the value by the identifier of the sender so that the receiver knows from who the message is.
 
+Here is a list of all the commands used by the protocol:
 - JOIN_CLIENT:
     Every client registers itself to server and it is the server that sends back a unique identifier to the client.
 - JOINED_CLIENT
