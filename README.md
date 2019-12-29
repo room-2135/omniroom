@@ -18,14 +18,13 @@ Omniroom is divided into 2 parts:
 ## Websockets protocol
 
 A message has the form:
-
+```
 {
     command: 'COMMAND',
-
     identifier: '0123456789',
-
     [...]
 }
+```
 
 When a message is sent, the identifier field refers to the target of the message. The signaling server replaces the value by the identifier of the sender so that the receiver knows from who the message is.
 
